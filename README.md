@@ -14,4 +14,4 @@ Figures of the paper are also available in pdf format (Figure 1, 2, 3, 4, 5, S1,
 
 Scripts
 
-Scripts of each Figure and Table S5 are available as R script (.R) with comments of the steps done. 
+Scripts of each figure and Table S5 are available as R script (.R) with comments of the steps done. 
