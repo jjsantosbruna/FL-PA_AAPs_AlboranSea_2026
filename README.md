@@ -1,19 +1,19 @@
-Scripts for Aerobic anoxygenic phototrophic bacteria correlate with picophytoplankton across the Atlantic Ocean but show unique vertical bioenergetics
-A manuscript published in Limnology & Oceanography doi: https://doi.org/10.1002/lno.12682
+Data and scripts for "Contrasting free-living and particle-associated Aerobic Anoxygenic Phototrophic bacterial communities across space and time in the Alboran Sea"
 
-Scripts by Carlota R. Gazulla
+Scripts by Jorge J. Santos-Bruña
 
 Data and scripts are organized as follows:
 
 Data
-A main file Metadata Gazulla et al 2024 L&O.xlsx summarizes all the metadata. The .csv files that should be used in the scripts are listed below.
 
-SNPP_VIIRS.20190301_20190331.L3m.MO.CHL.chlor_a.9km.nc is the near-surface chlorophyll data from March 2019, which is represented in Figure 1. It was downloaded from https://oceancolor.gsfc.nasa.gov/l3/.
-expedition_data.csv contains basic data from the Poseidon Expedition (stations, depths, coordinates...), cell abundances from flow cytometry and pigment concentrations from the HPLC.
-light_data.csv contains each station's photosynthetic active radiation (PAR) and diffuse attenuation coefficients at 490 nm (Kd). The data has been downloaded from https://oceancolor.gsfc.nasa.gov/l3/.
-integrated_data.csv contains the integrated cellular daily energy yield at each station.
+A main file "ESMARES_AAPs_02.2026.rds" summarizes the ASV table, metadata table, and taxonomy classification in a R object that contents the phyloseq object. 
+
+The supplementary tables of the study are stored in xlsx format (Table S1, S2, S3, S4 and S5).
+
+Figures of the paper are also available in pdf format (Figure 1, 2, 3, 4, 5, S1, S2, S3, S4 and S5)
+
 Scripts
-0_Bioenergetics.R contain light and bioenergetics calculations. It should be executed before the following scripts.
+
 Figure1.R is to generate Figure 1.
 Figure2.R to generate panels B (right) and C (right) in Figure 2.
 Figure3.R to generate Figure 3.
