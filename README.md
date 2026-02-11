@@ -14,8 +14,4 @@ Figures of the paper are also available in pdf format (Figure 1, 2, 3, 4, 5, S1,
 
 Scripts
 
-Figure1.R is to generate Figure 1.
-Figure2.R to generate panels B (right) and C (right) in Figure 2.
-Figure3.R to generate Figure 3.
-Figure4.R to generate Figure 4.
-Supplementary_Figures.R to generate Supplementary Figures S7, S8 and S9.
+Scripts of each Figure and Table S5 are available as R script (.R) with comments of the steps done. 
