@@ -1,17 +1,65 @@
-Data and scripts for "Contrasting free-living and particle-associated Aerobic Anoxygenic Phototrophic bacterial communities across space and time in the Alboran Sea"
+# Contrasting free-living and particle-associated Aerobic Anoxygenic Phototrophic bacterial communities across space and time in the Alboran Sea
 
-Scripts by Jorge J. Santos-Bruña
+**Author:** Jorge J. Santos-Bruña  
 
-Data and scripts are organized as follows:
+This repository contains the data and R scripts used in the study.
 
-Data
+---
 
-A main file "ESMARES_AAPs_02.2026.rds" summarizes the ASV table, metadata table, and taxonomy classification in a R object that contents the phyloseq object. 
+## 📂 Repository Structure
 
-The supplementary tables of the study are stored in xlsx format (Table S1, S2, S3, S4 and S5).
+### 📊 Data
 
-Figures of the paper are also available in pdf format (Figure 1, 2, 3, 4, 5, S1, S2, S3, S4 and S5)
+#### Main dataset
 
-Scripts
+- **`ESMARES_AAPs_02.2026.rds`**  
 
-Scripts of each figure and Table S5 are available as R script (.R) with comments of the steps done. 
+  R serialized file containing a complete **phyloseq object**, including:
+
+  - ASV abundance table (otu_table)
+  - Sample metadata  (sample_data)
+  - Taxonomic classification  (tax_table)
+
+#### Supplementary Tables
+
+Supplementary tables are provided in **`.xlsx` format**:
+
+- Table S1  
+- Table S2  
+- Table S3  
+- Table S4  
+- Table S5  
+
+#### Figures
+
+All manuscript figures are available in **PDF format**:
+
+- Figure 1–5  
+- Figure S1–S5  
+
+---
+
+## 💻 Scripts
+
+R scripts (`.R`) are provided to generate:
+
+- All manuscript figures  
+- Supplementary Table S5  
+
+Each script contains detailed comments explaining the analytical workflow and statistical procedures.
+
+---
+
+## 🔁 Reproducibility
+
+The repository is structured to ensure full reproducibility of the study.  
+All results can be reproduced using the provided `.rds` file together with the corresponding R scripts.
+
+---
+
+## 📬 Contact
+
+For questions regarding the data or scripts, please contact: jorgejuansantos23@gmail.com
+
+**Jorge J. Santos-Bruña**
+
