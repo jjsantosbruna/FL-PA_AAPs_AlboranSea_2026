@@ -28,16 +28,7 @@ Supplementary tables are provided in **`.xlsx` format**:
 - Table S2  
 - Table S3  
 - Table S4  
-- Table S5  
-
-#### Figures
-
-All manuscript figures are available in **PDF format**:
-
-- Figure 1–5  
-- Figure S1–S5  
-
----
+- Table S5
 
 ## 💻 Scripts
 
